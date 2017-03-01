@@ -197,7 +197,17 @@ html, body {
  * Section - Portfolio 
  * ======================================================================== */
 
- .portfolio h2 {
+.portfolio {
+	margin-bottom: 100px;
+}
+
+.portfolio::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.portfolio h2 {
  	font-weight: 600;
 	font-size: 2.8em;
  }
@@ -245,6 +255,15 @@ html, body {
 	position: absolute;
 	right: 10px;
 	top: -220px;
+}
+
+/* ========================================================================
+ * Section - Customers 
+ * ======================================================================== */
+
+.customers h2 {
+	font-size: 2.8em;
+	font-weight: 600;
 }
     
 
