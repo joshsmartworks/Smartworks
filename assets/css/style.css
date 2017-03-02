@@ -47,15 +47,16 @@ html, body {
 }
 
 .navbar-brand img {
-	width: 200px;
+	width: 220px;
 }
 
-#top-bar {
+.top-bar {
 	background-image: url('../images/pexels-photo-7778.jpg');
 	background-size: cover;
 	background-position: top left;
 	height: 100vh;
 }
+
 
 .hero h1 {
 	font-size: 3.3em;
@@ -272,10 +273,14 @@ html, body {
  * Section - Customers 
  * ======================================================================== */
 
-
 .customers h2 {
 	font-size: 2.8em;
 	font-weight: 600;
+}
+
+.customers img {
+	width: 70%;
+	margin-left: 160px;
 }
 
 /* ========================================================================
