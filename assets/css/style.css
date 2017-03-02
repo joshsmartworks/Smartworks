@@ -10,6 +10,18 @@ html, body {
 }
 
 
+.navbar-default .navbar-toggle {
+    border-color: rgba(221, 221, 221, 0);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    border-color: rgba(221, 221, 221, 0);
+}
+
+.navbar-toggle:focus {
+    outline: 0;
+}
+
 /* ========================================================================
  * Header 
  * ======================================================================== */
@@ -280,7 +292,7 @@ html, body {
 
 .customers img {
 	width: 70%;
-	margin-left: 160px;
+	margin: 0 auto;
 }
 
 /* ========================================================================
