@@ -1,33 +1,147 @@
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px)  {
 
 	
 /* ========================================================================
  * Header 
  * ======================================================================== */
+ /*
+	.navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
 
- 
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    	margin: 0 auto;
- 	}
+    .navbar-collapse {
+        border-top: 1px solid black;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        background-color: #fff;
+        width: 100%;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
 
-	.navbar-brand img {
-		margin-left: 247px;
-	}
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }*/
+
+  /*  .navbar-default {
+		height: 56px;
+		background-color: #fff;
+		border: 1px solid #f7f7f7;
+	}*/
+
+    .navbar-brand img {
+	    margin-right: auto;
+	    margin-left: auto;
+	}	
 
 	.navbar-right {
-		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
-	.button-request {
-		border: 1px solid transparent;
+
+	/* Toggle Bar */
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #398fd8;
+	    font-size: 1.4em;
 	}
 
-	.top-bar {
-		background-position: center;
-		height: 100vh;
+	.navbar-toggle .icon-bar {
+		height: 4px;
 	}
 
+	.navbar-toggle:hover {
+		background-color: black;
+	}
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:active,
+	.navbar-default .navbar-toggle:focus {
+	    background-color: transparent;
+	}
+
+	.footer-block-social {
+		margin-top: -33px;
+	}
+
+	/*.container-collapse {
+		background-color: #fff;
+	}
+*/
 
 }
 
+
+@media screen and (max-width: 768px)  {
+
+	 .services-development h2,
+	 .services-design h2,
+	 .services-marketing h2,
+	 .services-marketing h4,
+	 .services-marketing p {
+	 	text-align: center;
+	 }
+
+	.services-marketing a {
+		margin-left: 200px;
+	}
+
+	.services-marketing {
+		min-height: 40vh;
+	}
+
+	.contacts h2 {
+		padding-top: 20px;
+	}
+
+	.sw-footer-box {
+		text-align: center;
+	}
+	
+	.sw-footer-box-two:first-of-type,
+	.sw-footer-box-two:first-of-type ul li {
+		text-align: center;
+	}
+
+	.sw-footer-box-two>ul>li {
+		text-align: justify;
+	}
+
+
+	.footer-block-row,
+	.footer-block-social {
+		text-align: center;
+		position: relative;
+	}
+
+	.footer-block-social {
+		float: none;
+		left: -38%;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+}

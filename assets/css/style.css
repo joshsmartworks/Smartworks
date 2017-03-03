@@ -33,12 +33,6 @@ html, body {
 	transition: background-color .2s;
 }
 
-/*.navbar-default:hover {
-	background-color: #398fd8;
-	background-color: #fff;
-}
-*/
-
 .navbar-nav li {
 	position: relative;
 	top: 15px;
@@ -66,7 +60,9 @@ html, body {
 	background-image: url('../images/pexels-photo-7778.jpg');
 	background-size: cover;
 	background-position: top left;
+	background-repeat: no repeat;
 	height: 100vh;
+	box-shadow: 1px 1px 23px 0 rgba(0,0,0,.6);
 }
 
 
@@ -367,6 +363,15 @@ footer {
 .sw-footer-row-1,
 .sw-footer-box-two {
 	margin-bottom: 40px;
+
+}
+
+.sw-footer-box-two ul li {
+	list-style: none;
+}
+
+.sw-footer-box-two h4 {
+	padding-left: 40px;
 }
 
 .sw-footer-box-two li p {
