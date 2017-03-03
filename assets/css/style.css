@@ -30,7 +30,6 @@ html, body {
 	height: 80px;
 	background-color: transparent;
 	border: transparent;
-	transition: background-color .2s;
 }
 
 .navbar-nav li {
@@ -44,7 +43,10 @@ html, body {
 	line-height: 1.4em;
 	font-size: .9em;
 	text-transform: uppercase;
+	transition: all .2s;
 }
+
+
 
 .navbar-default .navbar-nav>li>a:hover {
 	color: #222;
@@ -60,7 +62,7 @@ html, body {
 	background-image: url('../images/pexels-photo-7778.jpg');
 	background-size: cover;
 	background-position: top left;
-	background-repeat: no repeat;
+	background-repeat: no-repeat;
 	height: 100vh;
 	box-shadow: 1px 1px 23px 0 rgba(0,0,0,.6);
 }
