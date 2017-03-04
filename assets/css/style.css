@@ -161,6 +161,10 @@ html, body {
 	border-radius: 20px;
 }
 
+.services-development img {
+	width: 550px;
+}
+
 .services-design {
 	margin-top: 150px;
 }
@@ -237,6 +241,7 @@ html, body {
 .owl-carousel .item {
 	width: 844px;
 }
+
 .thumbnail-caption {
     margin: 0;
     padding: 0;
@@ -306,7 +311,7 @@ html, body {
 }
 
 .contacts h2 {
-	padding-top: 40px;
+	padding-top: 20px;
 	color: #fff;
 	font-size: 1.8em;
 	font-weight: 600;
@@ -394,6 +399,7 @@ footer {
 	color: #a2adb5;
 }
 
+
 .footer-block-social i {
 	color: #fff;
 }
@@ -401,6 +407,7 @@ footer {
 /* ========================================================================
  * Modal 
  * ======================================================================== */
+ 
 .modal-header h4 {
 	font-size: 1.2em;
 	font-weight: 600;
